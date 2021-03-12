@@ -1,0 +1,11 @@
+.example__website-link {
+    font-family: 'Inter', Courier, monospace;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 10px;
+    opacity: 0.8;
+}
+
+.example__website-link:hover {
+    opacity: 0.5;
+}

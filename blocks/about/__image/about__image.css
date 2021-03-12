@@ -1,0 +1,17 @@
+.about__image {
+    background-image: url(../../../images/headshot1-square250.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: 10;
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .about__image {
+        margin: 0 auto 0;
+    }
+}

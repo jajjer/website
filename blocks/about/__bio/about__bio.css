@@ -1,0 +1,11 @@
+.about__bio {
+    max-width: 880px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+    .about__bio {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,12 @@
+.slide {
+    animation: slide 1s linear reverse;
+}
+
+@keyframes slide {
+    0% {
+        left: 0%;
+    }
+    100% {
+        right: 100%;
+    }
+}

@@ -1,0 +1,33 @@
+@import url(../example/__item/example__item.css);
+@import url(../example/__title/example__title.css);
+@import url(../example/__image/example__image.css);
+@import url(../example/__github/example__github.css);
+@import url(../example/__github-link/example__github-link.css);
+@import url(../example/__github-image/example__github-image.css);
+@import url(../example/__description/example__description.css);
+@import url(../example/__iframe/example__iframe.css);
+@import url(../example/__iframe-link/example__iframe-link.css);
+@import url(../example/__link/example__link.css);
+@import url(../example/__video/example__video.css);
+@import url(../example/__website/example__website.css);
+@import url(../example/__website-link/example__website-link.css);
+@import url(../example/__website-image/example__website-image.css);
+.example {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    margin: 50 auto 0;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .example {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .example {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 75px auto 0px;
+    background: rgb(0, 0, 0, 0.8);
+    justify-content: center;
+    position: relative;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .container {
+        max-width: 568px;
+    }
+}

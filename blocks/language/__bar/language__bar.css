@@ -1,0 +1,58 @@
+/*@import url(./_size/language__bar_size_s.css);
+@import url(./_size/language__bar_size_m.css);
+@import url(./_size/language__bar_size_l.css);
+@import url(./_size/language__bar_size_xl.css);*/
+
+.language__bar {
+    position: relative;
+    width: 500px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0, 0.8);
+    border-radius: 15px;
+}
+
+.language__bar:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: rgb(82, 232, 63);
+    /*z-index: -1;*/
+    border-radius: 25px;
+    /*animation: slide 1s linear reverse;*/
+}
+
+.language__bar:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: rgb(82, 232, 63);
+    /*z-index: -2;*/
+    filter: blur(20px);
+    border-radius: 15px;
+    /*animation: slide 1s linear reverse;*/
+}
+
+
+/*@keyframes slide {
+    0% {
+        left: 0%;
+    }
+    100% {
+        right: 100%;
+    }
+}*/
+
+@media screen and (max-width: 568px) {
+    .language__bar {
+        width: 400px;
+    }
+}

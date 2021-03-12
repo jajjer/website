@@ -1,0 +1,11 @@
+.language__bar_size_s {
+    width: 100px;
+    margin-right: 400px;
+}
+
+@media screen and (max-width: 568px) {
+    .language__bar_size_s {
+        width: 80px;
+        margin-right: 320px;
+    }
+}

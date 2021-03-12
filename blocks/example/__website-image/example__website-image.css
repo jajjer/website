@@ -1,0 +1,9 @@
+.example__website-image {
+    background-image: url(../../../images/internet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    margin-right: 5px;
+}

@@ -1,0 +1,26 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .page {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .page {
+        max-width: 568px;
+    }
+}

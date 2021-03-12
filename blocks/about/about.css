@@ -1,0 +1,13 @@
+@import url(../about/__title/about__title.css);
+@import url(../about/__subtitle/about__subtitle.css);
+@import url(../about/__image/about__image.css);
+@import url(../about/__paragraph/about__paragraph.css);
+@import url(../about/__bio/about__bio.css);
+@import url(../about/__text/about__text.css);
+.about {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto 0;
+}

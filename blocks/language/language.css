@@ -1,0 +1,17 @@
+@import url(./__bar/language__bar.css);
+@import url(./__name/language__name.css);
+@import url(./__item/language__item.css);
+@import url(./__bar/_size/language__bar_size_s.css);
+@import url(./__bar/_size/language__bar_size_m.css);
+@import url(./__bar/_size/language__bar_size_l.css);
+@import url(./__bar/_size/language__bar_size_xl.css);
+.language {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 568px) {
+    .language {
+        padding-left: 0;
+    }
+}

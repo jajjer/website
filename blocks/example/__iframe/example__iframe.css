@@ -1,0 +1,6 @@
+.example__iframe {
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    width: 300px;
+    height: 150px;
+}

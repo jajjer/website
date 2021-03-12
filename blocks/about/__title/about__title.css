@@ -1,0 +1,25 @@
+.about__title {
+    font-family: 'Inter', Courier, monospace;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 96px;
+    margin: 0 auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .about__title {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about__title {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .about__title {
+        font-size: 50px;
+    }
+}
