@@ -2,3 +2,9 @@
     margin-top: 20px;
     max-width: 300px;
 }
+
+@media screen and (max-width: 768px) {
+    .example__item {
+        margin-top: 50px;
+    }
+}

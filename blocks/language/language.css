@@ -8,6 +8,12 @@
 .language {
     display: flex;
     flex-direction: column;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0px;
 }
 
 @media screen and (max-width: 568px) {

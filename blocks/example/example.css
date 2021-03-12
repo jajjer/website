@@ -16,8 +16,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
-    margin: 50 auto 0;
+    margin: 50px auto 0;
     padding-left: 0;
+    list-style-type: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -29,5 +30,6 @@
 @media screen and (max-width: 568px) {
     .example {
         grid-template-columns: 1fr;
+        margin: 15px auto 0;
     }
 }
