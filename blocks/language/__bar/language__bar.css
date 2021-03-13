@@ -51,8 +51,14 @@
     }
 }*/
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 768px) {
     .language__bar {
         width: 400px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .language__bar {
+        width: 300px;
     }
 }

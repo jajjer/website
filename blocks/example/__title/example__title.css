@@ -2,13 +2,13 @@
     font-family: 'Inter', Courier, monospace;
     color: #ffffff;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 28px;
     margin: 0 auto 0;
 }
 
 @media screen and (max-width: 1024px) {
     .example__title {
-        font-size: 29px;
+        font-size: 25px;
     }
 }
 

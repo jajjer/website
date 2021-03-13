@@ -5,3 +5,10 @@
     font-size: 15px;
     margin-right: 15px;
 }
+
+@media screen and (max-width: 568px) {
+    .language__name {
+        margin-right: 3px;
+        font-size: 13px;
+    }
+}

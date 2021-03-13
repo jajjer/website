@@ -3,9 +3,16 @@
     margin-right: 200px;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 768px) {
     .language__bar_size_l {
         width: 240px;
         margin-right: 160px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .language__bar_size_l {
+        width: 180px;
+        margin-right: 120px;
     }
 }

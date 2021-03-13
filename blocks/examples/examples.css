@@ -1,6 +1,11 @@
-@import url(./__title/examples__title.css);
+    @import url(./__title/examples__title.css);
 .examples {
     display: flex;
     flex-direction: column;
     margin: 75px auto 50px;
 }
+
+@media screen and (max-width: 768px) {
+    .examples {
+        margin: 40px auto 40px;
+    }

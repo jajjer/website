@@ -1,6 +1,7 @@
 .example__item {
+    display: block;
     margin-top: 20px;
-    max-width: 300px;
+    max-width: 304px;
 }
 
 @media screen and (max-width: 768px) {
