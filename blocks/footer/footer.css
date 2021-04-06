@@ -27,5 +27,7 @@
 @media screen and (max-width: 568px) {
     .footer {
         max-width: 568px;
+        flex-direction: column-reverse;
+        justify-content: center;
     }
 }
